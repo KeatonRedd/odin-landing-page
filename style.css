@@ -1,0 +1,136 @@
+html {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a,
+.hero-text {
+    color: #E5E7EB;
+}
+
+a {
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.hero {
+    justify-content: center;
+}
+
+.hero-left {
+    width: 500px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: #E5E7EB;
+}
+
+.img_row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section img {
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+}
+
+.section p {
+    padding: 0px 25px;
+}
+
+#middle { 
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote_block {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.quote_block p {
+    width: 800px;
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+}
+
+.quote_block span{
+    margin-left: 600px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.modalc {
+    background: white;
+    padding: 100px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 10px;
+    width: 40%;
+}
+
+.left p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
